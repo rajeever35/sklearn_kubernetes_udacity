@@ -72,3 +72,6 @@ Output should be something similar to the [file](output_txt_files/docker_out.txt
 - The trained model files are under [model_data/.](model_data/)
 
 - The CircleCI configuration is under [.circleci](.circleci/config.yml)
+
+- link to my dockerhub with the image pushed: 
+    > https://hub.docker.com/r/rajxxx/houserent
