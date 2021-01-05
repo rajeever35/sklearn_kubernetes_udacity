@@ -9,3 +9,13 @@ Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
 Handling connection for 8000
 Handling connection for 8000
+
+# Output of make_prediction.sh
+
+(.devops) ➜  sklearn_kubernetes_udacity git:(main) ✗ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
