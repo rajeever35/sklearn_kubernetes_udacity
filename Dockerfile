@@ -4,11 +4,10 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY . /app
+COPY . /app/
 
 # hadolint ignore=DL3013
-RUN pip install --upgrade pip &&\
-	pip install --trusted-host pypi.python.org -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
 EXPOSE 80
 
