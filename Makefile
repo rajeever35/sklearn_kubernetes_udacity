@@ -1,5 +1,5 @@
 setup:
-	python3.7 -m venv ~/.devops && source ~/.devops/bin/activate
+	source ~/.devops/bin/activate
 
 install:
 	pip install --upgrade pip &&\
