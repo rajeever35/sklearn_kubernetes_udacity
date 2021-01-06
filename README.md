@@ -3,9 +3,9 @@
 
 ## Repository Overview
 
-This repository contains code to containerize a machine learning, Python application. It uses a pre-trained scikit-learn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. The data initially taken from Kaggle, the [data source site](https://www.kaggle.com/c/boston-housing).
+This repository contains code to containerize a machine learning, Python application. It uses a pre-trained scikit-learn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. The data initially taken from Kaggle, the _[data source site](https://www.kaggle.com/c/boston-housing)._
 
-[app.py](app.py) serves out predictions about housing prices through API calls.
+_[app.py](app.py)_ serves out predictions about housing prices through API calls.
 
 Instructions for running the app using Docker and Kubernetes are listed below.
 
@@ -42,10 +42,10 @@ To check if it is running, open browser and type
 Open new terminal and type 
 > ./make_prediction.sh
 
-Output should be something similar to the [file](output_txt_files/docker_out.txt)
+Output should be something similar to the _[file](output_txt_files/docker_out.txt)_
 
 ## Running with kubernetes
-- Upload the image built with docker to [dockerhub](https://hub.docker.com/r/rajxxx/houserent)
+- Upload the image built with docker to _[dockerhub](https://hub.docker.com/r/rajxxx/houserent)_
 > ./upload_docker.sh
 - start minikube 
 > minikube start
@@ -53,7 +53,7 @@ Output should be something similar to the [file](output_txt_files/docker_out.txt
 > ./run_kubernetes.sh
 - Test the output by running make_pridiction script to other tab
 > ./make_prediction.sh
-- The output should be something similar to the [file](output_txt_files/kubernetes_out.txt) 
+- The output should be something similar to the _[file](output_txt_files/kubernetes_out.txt)._ 
 
 ## Project Files Structure
 
@@ -69,9 +69,10 @@ Output should be something similar to the [file](output_txt_files/docker_out.txt
     - [upload_docker.sh](upload_docker.sh)
     - [make_prediction.sh](make_prediction.sh)
 
-- The trained model files are under [model_data/.](model_data/)
+- The trained model files are under _[model_data/.](model_data/)_
 
-- The CircleCI configuration is under [.circleci](.circleci/config.yml)
+- The CircleCI configuration is under _[.circleci](.circleci/config.yml)_
 
 - link to my dockerhub with the image pushed: 
     > https://hub.docker.com/r/rajxxx/houserent
+ 
